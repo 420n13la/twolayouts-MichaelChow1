@@ -1,59 +1,50 @@
-*{box-sizing: border-box;}
-
-html{
-  height: 100%;
-  width: 100%;
+body {
+  background-image: url("pattern.png");
+  font-family: Helvetica, sans-serif;
+  color: white;
 }
 
-body{
-  height: 100%;
-  width: 100%;
-  padding: 0px;
-  margin: 0px;  
-  font-family: "Special Elite", cursive;
+header{
   text-align: center;
 }
-
-div{
-   height: 100%;
-  width: 50%; 
-}
-
-.left{
-  background-color: gold;
-  float: left;
-  color: DarkSlateGray;
-}
-
-.right{
-  background-color: teal;
-  overflow: auto;
-  color: Ivory; 
-}
-
 h1{
-  width: 60%;
-  margin: 7em auto;
-  padding: 1em;
-  display: inline-block;  
+    font-size: 200%;
+  border: 2px dashed gold;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 15px 35px;
+}
+div.img{
+  width:32%;
+  border: 2px solid white;
+  display: inline-block;
 }
 
-.vm{
-  border: 2px solid DarkSlateGray;
+figure{
+  margin: 1px;
 }
 
-.hm{
-  border: 2px solid Ivory;
+figcaption{
+  padding-bottom: 10px;
+}
+
+.thumbnail{
+  width: 100%;
+}
+
+#wrapper{
+  width: 80%;
+  text-align: center;
+  margin: 2em auto;
 }
 
 a{
-  text-decoration: none;
+  color: gold;
+  text-decoration: underline overline;
 }
 
-a.avm:visited{
-  color: DarkSlateGray;
-}
-
-a.ahm:visited{
-  color: Ivory;
+footer{
+  text-align: center;
+  border-top: gold 2px dashed;
+  padding-top: 10px;
 }
